@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Matching Game</title>
+    <meta name= "viewport" content= "width= device-width, initial-scale = 1">
+    <link rel="stylesheet prefetch" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+    <link rel="stylesheet prefetch" href="https://fonts.googleapis.com/css?family=Coda">
+    <link rel="stylesheet" href="css/app.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Matching Game</h1>
+        </header>
+        <section class="score-panel">
+          <!-- Star rating -->
+        	<ul class="stars">
+        		<li class= "star1" ><i class="fa fa-star"></i></li>
+        		<li class= "star2"><i class="fa fa-star"></i></li>
+        		<li class= "star3"><i class="fa fa-star"></i></li>
+        	</ul>
+          <!-- Move counter   -->
+        	<span class= "moves"></span> moves
+          <!-- Game restarting -->
+          <div class= "restart">
+        		<i class= "fa fa-repeat"></i>
+        	</div>
+          <!-- Timer -->
+          <div>
+            <i class= "fa fa-clock-o"></i>
+            <span class= "timer"></span>
+          </div>
+        </section>
+        <!-- Message popup -->
+        <div class= "msgstyle">
+          <h2 class= "msg1"></h2>
+          <p class= "popup"></p>
+          <div class= "buttonFn"></div>
+        </div>
+        <ul class="deck"></ul>
+   </div>
+   <script src="js/app.js"></script>
+</body>
+</html>
